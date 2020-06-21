@@ -1,0 +1,40 @@
+[24-Aug-2018 02:56:13 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'ocsoluti_jobdemo.oc_product' doesn't exist<br />Error No: 1146<br />UPDATE `oc_product` SET `viewed` = '0'' in /home/ocsolutionsco/public_html/jobportal-demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/ocsolutionsco/public_html/jobportal-demo/system/library/db.php(16): DB\MySQLi->query('UPDATE `oc_prod...', Array)
+#1 /home/ocsolutionsco/public_html/jobportal-demo/install/model/install/install.php(47): DB->query('UPDATE `oc_prod...')
+#2 [internal function]: ModelInstallInstall->database(Array)
+#3 /home/ocsolutionsco/public_html/jobportal-demo/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/ocsolutionsco/public_html/jobportal-demo/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+#6 /home/ocsolutionsco/public_html/jobportal-demo/install/controller/install/step_3.php(11): Proxy->__call('database', Array)
+#7 /hom in /home/ocsolutionsco/public_html/jobportal-demo/system/library/db/mysqli.php on line 40
+[24-Aug-2018 03:40:32 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'oc_api' already exists<br />Error No: 1050<br />
+
+
+
+CREATE TABLE `oc_api` (
+  `api_id` int(11) NOT NULL,
+  `name` varchar(64) NOT NULL,
+  `key` text NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `date_added` datetime NOT NULL,
+  `date_modified` datetime NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+' in /home/ocsolutionsco/public_html/jobportal-demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/ocsolutionsco/public_html/jobportal-demo/system/library/db.php(16): DB\MySQLi->query('\n\n\n\nCREATE TABL...', Array)
+#1 /home/ocsolutionsco/public_html/jobportal-demo/install/model/install/install.php(26): DB->query('\n\n\n\nCREATE TABL...')
+#2 [internal function]: ModelInstallInstall->database(Array)
+#3 /home/ocsolutionsco/public_html/jobportal-demo/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/ocsolutionsco/public_html/jobportal-demo/system in /home/ocsolutionsco/public_html/jobportal-demo/system/library/db/mysqli.php on line 40
+[24-Aug-2018 03:43:57 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'ocsoluti_jobdemo.oc_product' doesn't exist<br />Error No: 1146<br />UPDATE `oc_product` SET `viewed` = '0'' in /home/ocsolutionsco/public_html/jobportal-demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/ocsolutionsco/public_html/jobportal-demo/system/library/db.php(16): DB\MySQLi->query('UPDATE `oc_prod...', Array)
+#1 /home/ocsolutionsco/public_html/jobportal-demo/install/model/install/install.php(47): DB->query('UPDATE `oc_prod...')
+#2 [internal function]: ModelInstallInstall->database(Array)
+#3 /home/ocsolutionsco/public_html/jobportal-demo/system/storage/modification/system/engine/loader.php(178): call_user_func_array(Array, Array)
+#4 [internal function]: Loader->{closure}(Array, Array)
+#5 /home/ocsolutionsco/public_html/jobportal-demo/system/engine/proxy.php(25): call_user_func_array(Object(Closure), Array)
+#6 /home/ocsolutionsco/public_html/jobportal-demo/install/controller/install/step_3.php(11): Proxy->__call('database', Array)
+#7 /hom in /home/ocsolutionsco/public_html/jobportal-demo/system/library/db/mysqli.php on line 40

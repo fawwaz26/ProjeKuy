@@ -1,0 +1,2 @@
+[24-Aug-2018 00:47:11 America/Denver] PHP Warning:  require_once(E:/xampp/htdocs/aug2018/jobportal/system/startup.php): failed to open stream: No such file or directory in /home/ocsolutionsco/public_html/jobportal-demo/admin/index.php on line 17
+[24-Aug-2018 00:47:11 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'E:/xampp/htdocs/aug2018/jobportal/system/startup.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ocsolutionsco/public_html/jobportal-demo/admin/index.php on line 17
